@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 25px 0 25px 0;
+}
+
+.result {
+  color: green;
+}

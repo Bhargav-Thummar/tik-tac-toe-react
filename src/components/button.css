@@ -1,0 +1,22 @@
+.Button {
+  background: #cad2c5;
+  display: flex;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  min-width: 33%;
+}
+
+.Button:disabled {
+  background: #d7ddd3;
+}
+
+.Button:enabled:hover {
+  background: #d7ddd3;
+  cursor: default;
+}
